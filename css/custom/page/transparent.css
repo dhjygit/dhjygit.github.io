@@ -1,0 +1,8 @@
+.layout_post>#post {
+    background: rgba(0,0,0,.6);
+}
+
+#aside_content .card-widget, #recent-posts>.recent-post-item, .layout_page>div:first-child:not(.recent-posts), .layout_post>#page {
+    background: rgba(0,0,0,.6);
+}
+
