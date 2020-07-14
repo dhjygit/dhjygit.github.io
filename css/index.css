@@ -5629,11 +5629,11 @@ blockquote.pullquote.right {
   color: rgba(255,255,255,0.6);
 }
 [data-theme='dark'] hr {
-  border: 2px dashed rgba(255,255,255,0.3);
+  border: 2px dashed #ff7ad7;
   background: 0;
 }
 [data-theme='dark'] hr:before {
-  color: rgba(255,255,255,0.6);
+  color: #ff7ad7;
 }
 [data-theme='dark'] .layout_post .tag_share .post-meta__tags {
   border: 1px solid rgba(255,255,255,0.6);
