@@ -2457,7 +2457,7 @@ blockquote footer cite:before {
   display: none;
 }
 .flink#article-container .flink-list > .flink-list-item a .flink-item-name {
-  padding: 16px 10px 0 0;
+  padding: 16px 10px;
   height: 40px;
   font-weight: 1000;
   font-size: 20px;
@@ -2799,6 +2799,7 @@ _:future,
 }
 #nav .menus_items .menus_item .menus_item_child li {
   list-style: none;
+  border-radius: 10px;
 }
 #nav .menus_items .menus_item .menus_item_child li:hover {
   background: #49b1f5;
@@ -5681,10 +5682,6 @@ blockquote.pullquote.right {
 [data-theme='dark'] .card-archive-list-item a:hover,
 [data-theme='dark'] #bookmark-it {
   background-color: #2c2c2c !important;
-}
-[data-theme='dark'] img,
-[data-theme='dark'] .gist {
-  filter: brightness(0.7);
 }
 [data-theme='dark'] #article-container iframe {
   filter: brightness(0.7);
