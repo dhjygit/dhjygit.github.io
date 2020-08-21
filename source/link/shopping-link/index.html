@@ -1,0 +1,31 @@
+---
+title: Shopping - Link
+layout: default
+permalink: /link/shopping-link/
+---
+<div id="page">
+  <div id="article-container">
+    <div id="page">
+      <div class="flink" id="article-container">
+        <hr>
+        <h1 style="color: #628FC4">购物网站</h1>
+        <div class="flink-list">
+          {% for item in site.data.linkshopping %}
+          <div class="flink-list-item"
+            style="--primary-color:#FF7961;border-width:1px;border-style:solid;animation: link_custom1 5s infinite alternate; background:rgba(76,73,72,.4)">
+            <a href="{{item.link}}" title="{{item.name}}" target="_blank" rel="" style="--namecolor:#FF4949"><img
+                class="rauto loaded" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="{{item.name}}"
+                style="--primary-rotate:360deg;--autotime:0;" data-ll-status="loaded" src="{{item.image}}">
+              <div class="flink-item-name">{{item.name}}</div>
+              <div class="flink-item-desc">{{item.desc}}</div>
+            </a>
+          </div>
+          {% endfor %}
+        </div>
+        <hr>
+      </div>
+    </div>
+    <script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script>
+    <script>L2Dwidget.init({ "pluginRootPath": "live2dw/", "pluginJsPath": "lib/", "pluginModelPath": "assets/", "tagMode": false, "debug": false, "model": { "scale": 1, "hHeadPos": 0.5, "vHeadPos": 0.618, "jsonPath": "/live2dw/assets/assets/tororo.model.json" }, "display": { "superSample": 2, "position": "right", "width": 150, "height": 300, "hOffset": 20, "vOffset": -50 }, "mobile": { "show": true, "scale": 1 }, "react": { "opacityDefault": 0.3, "opacityOnHover": 0.3, "opacity": 0.95 }, "log": false });</script>
+  </div>
+</div>

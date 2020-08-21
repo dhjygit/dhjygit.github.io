@@ -1,0 +1,16 @@
+- name: Twitter
+  desc: 美国社交网站
+  link: https://twitter.com/
+  image: https://cdn.jsdelivr.net/gh/dhjygit/cdn.image@master/link/sns/twitter.png
+- name: Facebook
+  desc: 美国社交网站
+  link: https://www.facebook.com/
+  image: https://cdn.jsdelivr.net/gh/dhjygit/cdn.image@master/link/sns/facebook.png
+- name: Weibo
+  desc: 中国社交网站
+  link: https://weibo.com/
+  image: https://cdn.jsdelivr.net/gh/dhjygit/cdn.image@master/link/sns/weibo.png
+- name: Instagram
+  desc: 图片共享网站
+  link: https://www.instagram.com/
+  image: https://cdn.jsdelivr.net/gh/dhjygit/cdn.image@master/link/sns/instagram.png

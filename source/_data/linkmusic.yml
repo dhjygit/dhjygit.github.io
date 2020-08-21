@@ -1,0 +1,14 @@
+- title: 音乐在线播放网站
+  item:
+    - name: Spotify
+      desc: spotify音乐网站
+      link: https://open.spotify.com/
+      image: https://cdn.jsdelivr.net/gh/dhjygit/cdn.image@master/link/music/spotify.png
+    - name: CloudMusic
+      desc: 网易云音乐网站
+      link: https://music.163.com/
+      image: https://cdn.jsdelivr.net/gh/dhjygit/cdn.image@master/link/music/cloudmusic.png
+    - name: Kugou
+      desc: 酷狗音乐网站
+      link: https://www.kugou.com/
+      image: https://cdn.jsdelivr.net/gh/dhjygit/cdn.image@master/link/music/kugou.png

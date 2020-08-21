@@ -1,0 +1,20 @@
+- title: 实用网站集合
+  item:
+    - name: 合集网
+      desc: 实用网站合集
+      link: https://www.heji.ltd/
+      image: https://cdn.jsdelivr.net/gh/dhjygit/cdn.image@master/link/tools/heji.png
+    - name: 爱达杂货铺
+      desc: 网站导航合集
+      link: https://adzhp.cn/
+      image: https://cdn.jsdelivr.net/gh/dhjygit/cdn.image@master/link/tools/adzhp.png
+    - name: 320印象网
+      desc: 资源集合网站
+      link: https://www.320nle.com/
+      image: https://cdn.jsdelivr.net/gh/dhjygit/cdn.image@master/link/tools/320nle.png
+- title: 大神网站
+  item:
+    - name: yr系统
+      desc: 小鱼儿yr系统
+      link: https://www.yrxitong.com/
+      image: https://cdn.jsdelivr.net/gh/dhjygit/cdn.image@master/link/tools/yr系统.png

@@ -1,0 +1,36 @@
+- title: 代码托管平台
+  item:
+    - name: Github
+      desc: 代码托管平台
+      link: https://github.com/
+      image: https://cdn.jsdelivr.net/gh/dhjygit/cdn.image@master/link/study/github.png
+    - name: Coding
+      desc: 代码托管平台
+      link: https://coding.net/
+      image: https://cdn.jsdelivr.net/gh/dhjygit/cdn.image@master/link/study/coding.png
+    - name: Gitee
+      desc: 代码托管平台
+      link: https://gitee.com/
+      image: https://cdn.jsdelivr.net/gh/dhjygit/cdn.image@master/link/study/gitee.png
+- title: 编程学习网站
+  item:
+    - name: CSDN
+      desc: 中国软件开发者网站
+      link: https://www.csdn.net/
+      image: https://cdn.jsdelivr.net/gh/dhjygit/cdn.image@master/link/study/csdn.png
+    - name: W3school
+      desc: Web开发教程网站
+      link: https://www.w3school.com.cn/
+      image: https://cdn.jsdelivr.net/gh/dhjygit/cdn.image@master/link/study/w3school.png
+    - name: MDN
+      desc: Web开发教程网站
+      link: https://developer.mozilla.org/zh-CN/
+      image: https://cdn.jsdelivr.net/gh/dhjygit/cdn.image@master/link/study/mdn.png
+    - name: 简书
+      desc: 中国优质创作社区
+      link: https://www.jianshu.com/
+      image: https://cdn.jsdelivr.net/gh/dhjygit/cdn.image@master/link/study/jianshu.png
+    - name: 菜鸟教程
+      desc: 编程教程网站
+      link: https://www.runoob.com/
+      image: https://cdn.jsdelivr.net/gh/dhjygit/cdn.image@master/link/study/runoob.png

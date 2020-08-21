@@ -1,0 +1,20 @@
+- name: Netnr
+  desc: NET牛人壁纸网站
+  link: https://ss.netnr.com/wallpaper#
+  image: https://cdn.jsdelivr.net/gh/dhjygit/cdn.image@master/link/wallpaper/netnr.ico
+- name: Wallhaven
+  desc: 动漫壁纸网站
+  link: https://wallhaven.cc/
+  image: https://cdn.jsdelivr.net/gh/dhjygit/cdn.image@master/link/wallpaper/wallhaven.png
+- name: Konachan
+  desc: 二次元壁纸网站
+  link: https://konachan.net/post
+  image: https://cdn.jsdelivr.net/gh/dhjygit/cdn.image@master/link/wallpaper/konachan.png
+- name: JiJian
+  desc: 极简壁纸网站
+  link: https://bz.zzzmh.cn/#index
+  image: https://cdn.jsdelivr.net/gh/dhjygit/cdn.image@master/link/wallpaper/jijian.png
+- name: Alpha Coders
+  desc: 壁纸网站
+  link: https://alphacoders.com/
+  image: https://cdn.jsdelivr.net/gh/dhjygit/cdn.image@master/link/wallpaper/alphacoders.png

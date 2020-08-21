@@ -1,0 +1,58 @@
+- title: 视频网站
+  item:
+    - name: Youtube
+      desc: 全球最大影片分享平台
+      link: https://www.youtube.com/
+      image: https://cdn.jsdelivr.net/gh/dhjygit/cdn.image@master/link/video/youtube.png
+    - name: Bilibili
+      desc: bilibili弹幕网
+      link: https://www.bilibili.com/
+      image: https://cdn.jsdelivr.net/gh/dhjygit/cdn.image@master/link/video/bilibili.png
+    - name: AcFun
+      desc: AcFun弹幕视频网
+      link: https://www.acfun.cn/
+      image: https://cdn.jsdelivr.net/gh/dhjygit/cdn.image@master/link/video/acfun.png
+    - name: 爱奇艺
+      desc: 爱奇艺视频网
+      link: https://www.iqiyi.com/
+      image: https://cdn.jsdelivr.net/gh/dhjygit/cdn.image@master/link/video/iqiyi.png
+    - name: 土豆
+      desc: 土豆视频网
+      link: https://www.tudou.com/
+      image: https://cdn.jsdelivr.net/gh/dhjygit/cdn.image@master/link/video/tudou.png
+    - name: 优酷
+      desc: 优酷视频网
+      link: https://youku.com/
+      image: https://cdn.jsdelivr.net/gh/dhjygit/cdn.image@master/link/video/youku.png
+    - name: 芒果TV
+      desc: 芒果TV视频网
+      link: https://www.mgtv.com/
+      image: https://cdn.jsdelivr.net/gh/dhjygit/cdn.image@master/link/video/mgtv.png
+    - name: 韩剧TV
+      desc: 韩剧TV视频网
+      link: https://www.hanjutv.com/
+      image: https://cdn.jsdelivr.net/gh/dhjygit/cdn.image@master/link/video/hanjutv.png
+    - name: 腾讯视频
+      desc: 腾讯视频网
+      link: https://v.qq.com/
+      image: https://cdn.jsdelivr.net/gh/dhjygit/cdn.image@master/link/video/qq.png
+- title: 视频资源上传网站
+  item:
+    - name: Vimeo
+      desc: 高清视频播客网站
+      link: https://vimeo.com/
+      image: https://cdn.jsdelivr.net/gh/dhjygit/cdn.image@master/link/video/vimeo.png
+- title: 视频资源下载网站
+  item:
+    - name: 动漫花园
+      desc: 动漫资源下载曲站
+      link: http://share.dmhy.org/
+      image: https://cdn.jsdelivr.net/gh/dhjygit/cdn.image@master/link/video/dmhy.png
+    - name: Pianku
+      desc: 高清视频观看网址
+      link: https://www.pianku.tv/
+      image: https://cdn.jsdelivr.net/gh/dhjygit/cdn.image@master/link/video/pianku.png
+    - name: MVCAT
+      desc: 高清视频下载网址
+      link: http://www.mvcat.com/
+      image: https://cdn.jsdelivr.net/gh/dhjygit/cdn.image@master/link/video/mvcat.png

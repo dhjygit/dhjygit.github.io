@@ -1,0 +1,340 @@
+---
+title: Video
+layout: default
+permalink: /video/
+---
+<style>
+  .hexo-douban-tabs {
+    margin-bottom: 15px;
+    margin-top: 15px;
+  }
+
+  .hexo-douban-tab {
+    padding: 5px;
+  }
+
+  .hexo-douban-active {
+    background: #657b83;
+    color: #fff;
+  }
+
+  .hexo-douban-active:hover {
+    background: #657b83;
+    color: red;
+  }
+
+  .hexo-douban-item {
+    padding-bottom: 10px;
+    position: relative;
+    clear: both;
+    min-height: 170px;
+    padding: 10px 0;
+    border-bottom: 1px #ddd solid;
+  }
+
+  @media screen and (max-width: 600px) {
+    .hexo-douban-item {
+      width: 100%;
+    }
+  }
+
+  .hexo-douban-picture {
+    position: absolute;
+    left: 0;
+    top: 11px;
+    width: 105px;
+  }
+
+  .hexo-douban-info {
+    padding-left: 120px;
+  }
+
+  .hexo-douban-meta {
+    font-size: 12px;
+    padding-right: 10px;
+    color: #2fd8d8
+  }
+
+  .hexo-douban-comments {
+    font-size: 12px;
+    color: #F8C136
+  }
+
+  .hexo-douban-pagination {
+    margin-top: 15px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .hexo-douban-button {
+    padding: 5px;
+  }
+
+  .hexo-douban-button:hover {
+    background: #657b83;
+    color: #fff;
+  }
+
+  .hexo-douban-hide {
+    display: none;
+  }
+
+  .hexo-douban-show {
+    display: block;
+  }
+
+  .hexo-douban-picture img {
+    width: 105px;
+    height: 147px
+  }
+</style>
+
+
+
+<!-- Main Content start-->
+
+<div class="container">
+  <blockquote>
+    <p>过去，现在，未来</p>
+  </blockquote>
+
+  <div class="hexo-douban-tabs">
+    <a class="hexo-douban-tab" id="hexo-douban-tab1" href="javascript:;" rel="external">韩剧</a>
+    <a class="hexo-douban-tab" id="hexo-douban-tab2" href="javascript:;" rel="external">日剧</a>
+    <a class="hexo-douban-tab" id="hexo-douban-tab3" href="javascript:;" rel="external">美剧</a>
+    <a class="hexo-douban-tab" id="hexo-douban-tab4" href="javascript:;" rel="external">电影</a>
+  </div>
+
+  <div>
+
+    <!-- 韩剧 start -->
+    <div id="hexo-douban-item1">
+      <!-- 韩剧000开始 -->
+      {% for video in site.data.videohj %}
+      <div class="hexo-douban-item">
+        <div class="hexo-douban-picture"><img src="{{ video.videoimg }}" referrerpolicy="no-referrer"></div>
+        <div class="hexo-douban-info">
+          <div class="hexo-douban-title"><a target="_blank" href="{{ video.wikipedia }}"> {{ video.name }}</a></div>
+          <div class="hexo-douban-meta">导演: {{ video.director }} | 编剧: {{ video.screenwriter }}</div>
+          <div class="hexo-douban-meta">类型: {{ video.type }}</div>
+          <div class="hexo-douban-meta">人物: {{ video.characters }}</div>
+          <div class="hexo-douban-comments">{{ video.comment }}</div>
+        </div>
+      </div>
+      {% endfor %}
+      <!-- 韩剧000结束 -->
+      <!-- 分页 开始 -->
+      <div class="hexo-douban-pagination">
+        <a class="hexo-douban-button hexo-douban-firstpage" href="javascript:;">Top</a>
+        <a class="hexo-douban-button hexo-douban-previouspage" href="javascript:;">Prev</a>
+        <span class="hexo-douban-pagenum">1 / 1</span>
+        <a class="hexo-douban-button hexo-douban-nextpage" href="javascript:;">Next</a>
+        <a class="hexo-douban-button hexo-douban-lastpage" href="javascript:;">End</a>
+      </div>
+      <!-- 分页 结束 -->
+    </div>
+    <!-- 韩剧 end -->
+
+
+    <!-- 日剧 start -->
+    <div id="hexo-douban-item2">
+      <!-- 日剧000开始 -->
+      {% for video in site.data.videorj %}
+      <div class="hexo-douban-item">
+        <div class="hexo-douban-picture"><img src="{{ video.videoimg }}" referrerpolicy="no-referrer"></div>
+        <div class="hexo-douban-info">
+          <div class="hexo-douban-title"><a target="_blank" href="{{ video.wikipedia }}"> {{ video.name }}</a></div>
+          <div class="hexo-douban-meta">导演: {{ video.director }} | 编剧: {{ video.screenwriter }}</div>
+          <div class="hexo-douban-meta">类型: {{ video.type }}</div>
+          <div class="hexo-douban-meta">人物: {{ video.characters }}</div>
+          <div class="hexo-douban-comments">{{ video.comment }}</div>
+        </div>
+      </div>
+      {% endfor %}
+      <!-- 日剧000结束 -->
+      <!-- 分页 开始 -->
+      <div class="hexo-douban-pagination">
+        <a class="hexo-douban-button hexo-douban-firstpage" href="javascript:;">Top</a>
+        <a class="hexo-douban-button hexo-douban-previouspage" href="javascript:;">Prev</a>
+        <span class="hexo-douban-pagenum">1 / 1</span>
+        <a class="hexo-douban-button hexo-douban-nextpage" href="javascript:;">Next</a>
+        <a class="hexo-douban-button hexo-douban-lastpage" href="javascript:;">End</a>
+      </div>
+      <!-- 分页 结束 -->
+    </div>
+    <!-- 日剧 end -->
+
+
+    <!-- 美剧 start -->
+    <div id="hexo-douban-item3">
+      <!-- 美剧000开始 -->
+      {% for video in site.data.videomj %}
+      <div class="hexo-douban-item">
+        <div class="hexo-douban-picture"><img src="{{ video.videoimg }}" referrerpolicy="no-referrer"></div>
+        <div class="hexo-douban-info">
+          <div class="hexo-douban-title"><a target="_blank" href="{{ video.wikipedia }}"> {{ video.name }}</a></div>
+          <div class="hexo-douban-meta">导演: {{ video.director }} | 编剧: {{ video.screenwriter }}</div>
+          <div class="hexo-douban-meta">类型: {{ video.type }}</div>
+          <div class="hexo-douban-meta">人物: {{ video.characters }}</div>
+          <div class="hexo-douban-comments">{{ video.comment }}</div>
+        </div>
+      </div>
+      {% endfor %}
+      <!-- 美剧000结束 -->
+      <!-- 分页 开始 -->
+      <div class="hexo-douban-pagination">
+        <a class="hexo-douban-button hexo-douban-firstpage" href="javascript:;">Top</a>
+        <a class="hexo-douban-button hexo-douban-previouspage" href="javascript:;">Prev</a>
+        <span class="hexo-douban-pagenum">1 / 1</span>
+        <a class="hexo-douban-button hexo-douban-nextpage" href="javascript:;">Next</a>
+        <a class="hexo-douban-button hexo-douban-lastpage" href="javascript:;">End</a>
+      </div>
+      <!-- 分页 结束 -->
+    </div>
+    <!-- 美剧 end -->
+
+
+    <!-- 电影 start -->
+    <div id="hexo-douban-item4">
+      <!-- 电影000开始 -->
+      {% for video in site.data.videody %}
+      <div class="hexo-douban-item">
+        <div class="hexo-douban-picture"><img src="{{ video.videoimg }}" referrerpolicy="no-referrer"></div>
+        <div class="hexo-douban-info">
+          <div class="hexo-douban-title"><a target="_blank" href="{{ video.wikipedia }}"> {{ video.name }}</a></div>
+          <div class="hexo-douban-meta">导演: {{ video.director }} | 编剧: {{ video.screenwriter }}</div>
+          <div class="hexo-douban-meta">类型: {{ video.type }}</div>
+          <div class="hexo-douban-meta">人物: {{ video.characters }}</div>
+          <div class="hexo-douban-comments">{{ video.comment }}</div>
+        </div>
+      </div>
+      {% endfor %}
+      <!-- 电影000结束 -->
+      <!-- 分页 开始 -->
+      <div class="hexo-douban-pagination">
+        <a class="hexo-douban-button hexo-douban-firstpage" href="javascript:;">Top</a>
+        <a class="hexo-douban-button hexo-douban-previouspage" href="javascript:;">Prev</a>
+        <span class="hexo-douban-pagenum">1 / 1</span>
+        <a class="hexo-douban-button hexo-douban-nextpage" href="javascript:;">Next</a>
+        <a class="hexo-douban-button hexo-douban-lastpage" href="javascript:;">End</a>
+      </div>
+      <!-- 分页 结束 -->
+    </div>
+    <!-- 电影 end -->
+
+  </div>
+
+</div>
+<!-- Main Content end-->
+
+
+
+<script>
+  /** * Created by myths on 18-2-8. */
+
+  Element.prototype.siblings = function () {
+    var siblingElement = [];
+    var sibs = this.parentNode.children;
+    for (var i = 0; i < sibs.length; i++) {
+      if (sibs[i] !== this) {
+        siblingElement.push(sibs[i]);
+      }
+    }
+    return siblingElement;
+  };
+  function tabClick() {
+    //修改标签样式
+    this.classList.add('hexo-douban-active');
+    var sibs = this.siblings();
+    for (var j = 0; j < sibs.length; j++) {
+      sibs[j].classList.remove('hexo-douban-active');
+    }
+    //显示对应板块
+    var itemId = this.id.replace('tab', 'item');
+    var target = document.getElementById(itemId);
+    target.classList.remove('hexo-douban-hide');
+    target.classList.add('hexo-douban-show');
+    sibs = document.getElementById(itemId).siblings();
+    for (var k = 0; k < sibs.length; k++) {
+      sibs[k].classList.remove('hexo-douban-show');
+      sibs[k].classList.add('hexo-douban-hide');
+    }
+  }
+  var tabs = document.getElementsByClassName("hexo-douban-tab");
+  for (var i = 0; i < tabs.length; i++) {
+    tabs[i].onclick = tabClick;
+    tabs[i].onclick.apply(tabs[i]);
+  }
+  tabs[0].click();
+
+  var firstpages = document.getElementsByClassName("hexo-douban-firstpage");
+  var previouspages = document.getElementsByClassName("hexo-douban-previouspage");
+  var nextpages = document.getElementsByClassName("hexo-douban-nextpage");
+  var lastpages = document.getElementsByClassName("hexo-douban-lastpage");
+  var pagenums = document.getElementsByClassName("hexo-douban-pagenum");
+
+  function makePageNum(num, arr) {
+    return (num + 1) + ' / ' + (Math.ceil(arr.length / 10 === 0 ? 1 : Math.ceil(arr.length / 10)));
+  }
+
+  function firstBtn() {
+    var sibs = this.parentNode.siblings();
+    displayPage(sibs, 0);
+    this.parentNode.getElementsByClassName('hexo-douban-pagenum')[0].innerText = makePageNum(0, sibs);
+  }
+
+  function previousBtn() {
+    var sibs = this.parentNode.siblings();
+    var currNum = this.parentNode.getElementsByClassName('hexo-douban-pagenum')[0].innerText;
+    currNum = currNum.substr(0, currNum.indexOf('/') - 1);
+    currNum = parseInt(currNum, 10) - 1;
+    if (currNum > 0) {
+      currNum--;
+    }
+    displayPage(sibs, currNum);
+    this.parentNode.getElementsByClassName('hexo-douban-pagenum')[0].innerText = makePageNum(currNum, sibs);
+  }
+
+  function nextBtn() {
+    var sibs = this.parentNode.siblings();
+    var currNum = this.parentNode.getElementsByClassName('hexo-douban-pagenum')[0].innerText;
+    currNum = currNum.substr(0, currNum.indexOf('/') - 1);
+    currNum = parseInt(currNum, 10) - 1;
+    if (currNum < Math.ceil(sibs.length / 10) - 1) {
+      currNum++;
+    }
+    displayPage(sibs, currNum);
+    this.parentNode.getElementsByClassName('hexo-douban-pagenum')[0].innerText = makePageNum(currNum, sibs);
+  }
+  function lastBtn() {
+    var sibs = this.parentNode.siblings();
+    displayPage(sibs, Math.ceil(sibs.length / 10) - 1);
+    this.parentNode.getElementsByClassName('hexo-douban-pagenum')[0].innerText = makePageNum(Math.ceil(sibs.length / 10) - 1 === -1 ? 0 : Math.ceil(sibs.length / 10) - 1, sibs);
+  }
+
+  function displayPage(arr, num) {
+    for (var i = 0; i < arr.length; i++) {
+      if (Math.floor(i / 10) === num) {
+        arr[i].classList.remove('hexo-douban-hide');
+        var img = arr[i].getElementsByTagName('img')[0];
+        img.src = img.getAttribute('src');
+      } else {
+        arr[i].classList.add('hexo-douban-hide');
+      }
+    }
+  }
+
+  for (var i = 0; i < firstpages.length; i++) {
+
+    //add listener
+    firstpages[i].onclick = firstBtn;
+    previouspages[i].onclick = previousBtn;
+    nextpages[i].onclick = nextBtn;
+    lastpages[i].onclick = lastBtn;
+
+    //set page num
+    var size = pagenums[i].parentNode.siblings().length;
+    pagenums[i].innerText = '1 / ' + (Math.ceil(size / 10) === 0 ? 1 : Math.ceil(size / 10));
+    firstpages[i].click();
+  }
+</script>

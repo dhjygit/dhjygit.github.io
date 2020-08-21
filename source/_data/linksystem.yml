@@ -1,0 +1,48 @@
+- title: Windows系统
+  item:
+    - name: Windows10
+      desc: win10官方镜像ISO
+      link: https://www.microsoft.com/zh-cn/software-download/windows10ISO
+      image: https://cdn.jsdelivr.net/gh/dhjygit/cdn.image@master/link/system/windows10.png
+    - name: Windows8
+      desc: win8官方镜像ISO
+      link: https://www.microsoft.com/zh-cn/software-download/windows8ISO
+      image: https://cdn.jsdelivr.net/gh/dhjygit/cdn.image@master/link/system/windows8.png
+    - name: Windows7
+      desc: win7官方镜像ISO
+      link: https://www.microsoft.com/zh-cn/software-download/windows7
+      image: https://cdn.jsdelivr.net/gh/dhjygit/cdn.image@master/link/system/windows7.png
+- title: Mac系统
+  item:
+    - name: 黑果小兵
+      desc: 黑苹果资源网站
+      link: https://blog.daliansky.net/
+      image: https://cdn.jsdelivr.net/gh/dhjygit/cdn.image@master/link/system/daliansky.png
+- title: Linux系统
+  item:
+    - name: Archlinux
+      desc: linux系统
+      link: https://www.archlinux.org/
+      image: https://cdn.jsdelivr.net/gh/dhjygit/cdn.image@master/link/system/archlinux.png
+    - name: Deepin
+      desc: linux系统
+      link: https://www.deepin.org/zh/
+      image: https://cdn.jsdelivr.net/gh/dhjygit/cdn.image@master/link/system/deepin.png
+    - name: Manjaro
+      desc: linux系统
+      link: https://manjaro.org/
+      image: https://cdn.jsdelivr.net/gh/dhjygit/cdn.image@master/link/system/manjaro.png
+    - name: Ubuntu
+      desc: linux系统
+      link: https://ubuntu.com/
+      image: https://cdn.jsdelivr.net/gh/dhjygit/cdn.image@master/link/system/ubuntu.png
+    - name: Fedora
+      desc: linux系统
+      link: https://getfedora.org/
+      image: https://cdn.jsdelivr.net/gh/dhjygit/cdn.image@master/link/system/fedora.png
+- title: 第三方系统下载网站
+  item:
+    - name: 我告诉你
+      desc: 各种系统版本镜像文件
+      link: https://msdn.itellyou.cn/
+      image: https://cdn.jsdelivr.net/gh/dhjygit/cdn.image@master/link/system/itellyou.png
